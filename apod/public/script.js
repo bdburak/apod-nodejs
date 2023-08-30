@@ -49,7 +49,7 @@ function openPicture() {
 async function loadData(){
   let data;
 
-  const url = 'http://localhost:5000/api/random';
+  const url = '/api/random';
   const options = {
 	method: 'GET'
   };
